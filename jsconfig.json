@@ -1,0 +1,12 @@
+{
+    "$schema": "https://json.schemastore.org/jsconfig",
+    "compilerOptions": {
+        "paths": {
+            "/*": ["./public/*"],
+            "@/*": ["./src/*"]
+        },
+        "target": "es2021"
+    },
+    "exclude": ["node_modules/", "./src/server/"],
+    "include": ["./src/**/*"]
+}

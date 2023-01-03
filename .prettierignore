@@ -1,0 +1,6 @@
+.next
+.yarn
+.pnp.*
+build
+dist
+coverage
