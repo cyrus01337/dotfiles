@@ -11,9 +11,9 @@ fi
 installed=$(eval "$cmd $deps -D")
 
 if [[ $installed ]]; then
-    exit 0
-else
     rm -f deps.sh
 
+    exit 0
+else
     exit 1
 fi
